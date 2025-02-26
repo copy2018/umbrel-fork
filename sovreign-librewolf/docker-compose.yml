@@ -6,7 +6,7 @@ services:
       # <app-id>_<web-container-name>_1
       # e.g. 'btc-rpc-explorer_web_1'
       # Note that the '_1' at the end is needed
-      APP_HOST: sovreign-librewolf_app_1
+      APP_HOST: sovreign-librewolf_librewolf_1
       APP_PORT: 3000
   
   web:
