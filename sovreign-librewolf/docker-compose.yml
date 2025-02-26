@@ -7,7 +7,7 @@ services:
       # e.g. 'btc-rpc-explorer_web_1'
       # Note that the '_1' at the end is needed
       APP_HOST: sovreign-librewolf_librewolf_1
-      APP_PORT: 3000
+      APP_PORT: 3098
   
   web:
     image: ghcr.io/linuxserver/librewolf:135.0.1@sha256:da15e8950d4e36de6c9ecd2930f6a6a89a960bb669e5aa08495b8da624f0b48d
