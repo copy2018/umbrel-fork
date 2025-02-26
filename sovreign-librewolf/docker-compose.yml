@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: sovreign-librewolf_librewolf_1
+      APP_HOST: sovreign-librewolf_web_1
       APP_PORT: 3000
   
   web:
