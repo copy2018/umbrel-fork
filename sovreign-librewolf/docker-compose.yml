@@ -19,5 +19,5 @@ services:
       - TZ=Etc/UTC
     volumes:
       - /home/umbrel/umbrel/app-data/sovreign-librewolf/data/config:/config
-      - /home/umbrel/umbrel/home/Downloads:/downloads
+    shm_size: "1gb"
     restart: on-failure
