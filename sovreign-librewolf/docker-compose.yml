@@ -11,8 +11,6 @@ services:
   
   web:
     image: ghcr.io/linuxserver/librewolf:135.0.1@sha256:da15e8950d4e36de6c9ecd2930f6a6a89a960bb669e5aa08495b8da624f0b48d
-    restart: on-failure
-    stop_grace_period: 1m
     environment:
       - PUID=1000
       - PGID=1000
