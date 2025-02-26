@@ -14,8 +14,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
     volumes:
-      - /home/umbrel/umbrel/app-data/sovreign-librewolf/data/config:/config
+      - ${APP_DATA_DIR}/data:/config
     shm_size: "1gb"
     restart: on-failure
